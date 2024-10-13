@@ -5,13 +5,13 @@ ruby '3.1.3'
 
 # Metadata presenter - if you need to be on development you can uncomment
 # one of these lines:
-# gem 'metadata_presenter',
-    # github: 'cabinetoffice/fb-metadata-presenter',
-    # branch: 'fs-branch'
+gem 'metadata_presenter',
+    github: 'cabinetoffice/fb-metadata-presenter',
+    branch: 'fs-branch'
 # gem 'metadata_presenter', path: '../fb-metadata-presenter'
 # gem 'metadata_presenter', '3.4.5'
 # gem 'metadata_presenter', git: 'https://github.com/cabinetoffice/fb-metadata-presenter.git', branch: 'fs-branch'
-gem 'metadata_presenter', '3.3.5'
+# gem 'metadata_presenter', '3.3.5'
 
 gem 'google-protobuf', '~> 3.14'
 
